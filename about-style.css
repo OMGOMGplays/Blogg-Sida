@@ -33,34 +33,19 @@
     width: 50vw;
 }
 
-.list-rubrik {
+.contact-header {
     position: absolute;
     text-align: center;
     width: 100%;
     height: 15%;
 }
 
-.list-blogg {
+.contact-info {
     position: absolute;
-    top: 20%;
-    left: 2%;
-    width: 95%;
-    height: 16%;
-    border: 3px solid black;
-    border-radius: 6px;
-}
-
-.blogg-rubrik {
-    position: absolute;
-    margin-top: 8px;
-    top: 0;
-    left: 2.5%;
-}
-
-.blogg-underrubrik {
-    position: absolute;
-    bottom: 0;
-    left: 2.5%;
+    font-size: 20px;
+    font-weight: 800;
+    top: 12%;
+    left: 5%;
 }
 
 .footer {
@@ -72,16 +57,4 @@
     width: 100vw;
     border-top: 2px solid black;
     bottom: 0;
-}
-
-.link {
-    text-decoration: none;
-    position: absolute;
-    left: 48%;
-    bottom: 7%;
-    color: black;
-}
-
-.about {
-    text-align: center;
 }
