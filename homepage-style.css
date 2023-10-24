@@ -17,3 +17,53 @@
     width: 100vw;
     top: 2vh;
 }
+
+.container {
+    position: absolute;
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    flex-flow: column nowrap;
+    box-shadow: 0px 0px 5px black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    left: 25vw;
+    bottom: 0;
+    height: 85vh;
+    width: 50vw;
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.about-text {
+    position: absolute;
+    font-size: 20px;
+    top: 15%;
+    left: 5%;
+    width: 95%;
+}
+
+.blog-text {
+    position: absolute;
+    font-size: 20px;
+    top: 30%;
+    left: 5%;
+    width: 95%;
+}
+
+.text {
+    position: absolute;
+    font-size: 20px;
+    top: 45%;
+    left: 5%;
+    width: 95%;
+}
