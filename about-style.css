@@ -7,7 +7,7 @@
     background-color: rgb(74, 74, 74);
 }
 
-.header-rubrik {
+.header-title {
     position: absolute;
     color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -57,4 +57,11 @@
     width: 100vw;
     border-top: 2px solid black;
     bottom: 0;
+}
+
+.return {
+    position: absolute;
+    text-decoration: underline;
+    color: black;
+    left: 6%;
 }
