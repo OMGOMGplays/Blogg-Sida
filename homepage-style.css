@@ -46,16 +46,18 @@
 
 .about-text {
     position: absolute;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
     top: 15%;
-    left: 5%;
+    left: 75%;
     width: 95%;
 }
 
 .blog-text {
     position: absolute;
-    font-size: 20px;
-    top: 30%;
+    font-size: 25px;
+    font-weight: bold;
+    top: 15%;
     left: 5%;
     width: 95%;
 }
