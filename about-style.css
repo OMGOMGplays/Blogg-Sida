@@ -38,7 +38,7 @@
     left: 2.5%;
     top: 5%;
     width: 94%;
-    height: 25%;
+    height: 32%;
     border: 3px solid black;
     border-radius: 10px;
 }
@@ -53,15 +53,30 @@
 
 .about-page-subtitle {
     position: absolute;
-    bottom: 0;
+    top: 15%;
     left: 2.5%;
-    width: 95%;
+    width: 58%;
+}
+
+.about-image {
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+    height: 60%;
+    width: 35%;
+}
+
+.about-image-info {
+    position: absolute;
+    font-size: 12px;
+    right: 6%;
+    top: 82%;
 }
 
 .about-me {
     position: absolute;
     left: 2.5%;
-    top: 35%;
+    top: 55%;
     width: 94%;
     height: 25%;
     border: 3px solid black;
