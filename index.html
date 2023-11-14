@@ -1,64 +1,46 @@
 <html lang="se">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Blogg Sida</title>
-    </head>
 
-    <body style="background-color: rgb(162, 162, 162); margin: 0;">
-        <div class="header">
-            <header class="header-title">Bloggsidan</header>
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Blogg Sida</title>
+</head>
 
-        <div class="list">
-            <h1 class="list-title">Mina bloggar</h1>
+<body style="background-color: rgb(162, 162, 162); margin: 0;">
+    <div class="header">
+        <header class="header-title">Hemsidan</header>
+    </div>
 
-            <!-- Fungerar typ som en bas för andra bloggar att använda,
-            alla av de bör t.ex. ha en titel (blog-title), 
-            information om författaren och datumet den skrevs (blog-info),
-            och en liten mängd text som beskriver innehållet (blog-subtitle). -->
-            <div class="list-blog">
-                <h2 class="blog-title">Den första bloggen</h2>
+    <div class="container">
+        <h1 class="title">Välkommen till bloggsidan!</h1>
 
-                <p class="blog-info">Loke Vigstrand - 24/10/2023 - kl. 10:23</p>
-
-                <p class="blog-subtitle">
-                    Detta är den första bloggen utav alla! Den mest intressanta, 
-                    då resten har ännu att komma.
-                </p>
+        <a class="link" href="aboutpage.html">
+            <div class="about-container">
+                <p class="about-text">Om Webbsidan</p>
             </div>
-            
-            <div class="list-blog-2">
-                <h2 class="blog-title">Den andra bloggen</h2>
+        </a>
 
-                <p class="blog-info">Loke Vigstrand - 26/10/2023 - kl. 10:54</p>
-
-                <p class="blog-subtitle">
-                    Den andra bloggen, tillagd för att testa saker och ting.
-                </p>
+        <a class="link" href="blogpage.html">
+            <div class="blog-container">
+                <p class="blog-text">Bloggsidan</p>
             </div>
+        </a>
 
-            <div class="list-blog-3">
-                <h2 class="blog-title">Den tredje och sista bloggen</h2>
+        <p class="text">
+            Detta är en webbsida som primärt används för att testa ut flexboxes och grid i CSS.<br>
+            <br>
+            Den ska föreställa vilken bloggsida som helst, bara att denna är mycket mer enkel,
+            men det kan vara förståelsebart då sidan är inte gjord för mycket mer än att testa saker i kod.<br>
+            <br>
+            All detalj om varför denna sidan finns kommer inte vara här dock,
+            istället så är det bara att klicka på knappen där uppe till höger för att hitta din väg
+            till webbsidans informationer!<br>
+            <br>
+            Men, ifall du vill annars gå till bloggsidan sig självt så är det att klicka knappen uppe till vänster,
+            där kan du hitta alla bloggar som har laddats upp på webbsidan!
+        </p>
+    </div>
+</body>
 
-                <p class="blog-info">Loke Vigstrand - 07/11/2023 - kl. 09:39</p>
-
-                <p class="blog-subtitle">
-                    Den tredje och då den sista bloggen som läggs upp här, 
-                    allt för att testa hur sidan fungerar med så här många bloggar.
-                </p>
-            </div>
-        </div>
-
-        <div class="footer">
-            <a class="link" href="about.html">
-                <h2 class="about">Om Webbsidan</h2>
-            </a>
-
-            <a class="link" href="homepage.html">
-                <h2 class="homepage">Till hemsidan</h2>
-            </a>
-        </div>
-    </body>
 </html>

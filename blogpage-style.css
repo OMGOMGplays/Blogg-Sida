@@ -1,0 +1,135 @@
+.header {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    border-bottom: 2px solid black;
+    background-color: rgb(74, 74, 74);
+}
+
+.header-title {
+    position: absolute;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    width: 100vw;
+    top: 2vh;
+}
+
+/* En flex kontainer som innehåller bloggarna, osv. */
+.list {
+    position: absolute;
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    flex-flow: column nowrap;
+    box-shadow: 0px 0px 5px black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    left: 25vw;
+    bottom: 0;
+    height: 85vh;
+    width: 50vw;
+}
+
+.list-title {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 15%;
+}
+
+/* Jag önskar att jag visste hur man kunde automatiskt ge en height värde för varje blogg,
+men, då jag inte kan någon metod på hur man gör det i HTML / CSS, får jag sätta deras height
+värde manuellt. */
+.list-blog {
+    position: absolute;
+    background-color: rgb(203, 203, 203);
+    top: 60%;
+    left: 2%;
+    width: 95%;
+    height: 18%;
+    border: 3px solid black;
+    border-radius: 6px;
+}
+
+.list-blog-2 {
+    position: absolute;
+    background-color: rgb(203, 203, 203);
+    top: 40%;
+    left: 2%;
+    width: 95%;
+    height: 18%;
+    border: 3px solid black;
+    border-radius: 6px;
+}
+
+.list-blog-3 {
+    position: absolute;
+    background-color: rgb(203, 203, 203);
+    top: 20%;
+    left: 2%;
+    width: 95%;
+    height: 18%;
+    border: 3px solid black;
+    border-radius: 6px;
+}
+
+/* Bloggernas titel, författare information och datumet den skrevs, och undertexter */
+.blog-title {
+    position: absolute;
+    margin-top: 8px;
+    top: 0;
+    left: 2.5%;
+}
+
+.blog-info {
+    position: absolute;
+    font-size: 12px;
+    color: rgb(45, 45, 45);
+    top: 24%;
+    left: 2.5%;
+    width: 95%;
+}
+
+.blog-subtitle {
+    position: absolute;
+    top: 35%;
+    left: 2.5%;
+    width: 95%;
+}
+
+/* Footern är också en flex kontainer som innehåller länkarna till resten av webbsidan. */
+.footer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: rgb(218, 218, 218);
+    height: 10vh;
+    width: 100vw;
+    border-top: 2px solid black;
+    bottom: 0;
+}
+
+/* Alla länkar bör ha denna, den gömmer den blåa färgningen och tar bort dekorationer som
+sätts till automatiskt. */
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.about {
+    position: absolute;
+    left: 26%;
+    bottom: 7%;
+    text-align: center;
+}
+
+.homepage {
+    position: absolute;
+    left: 64%;
+    bottom: 7%;
+    text-align: center;
+}
