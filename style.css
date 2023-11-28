@@ -1,15 +1,15 @@
-.header {
-    .header-title {
-        position: absolute;
-        color: white;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 35px;
-        font-weight: 800;
-        text-align: center;
-        width: 100vw;
-        top: 2vh;
-    }
+.header-title {
+    position: absolute;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    width: 100vw;
+    top: 2vh;
+}
 
+.header {
     position: absolute;
     top: 0;
     width: 100vw;
@@ -18,13 +18,13 @@
     background-color: rgb(74, 74, 74);
 }
 
-.container {
-    .title {
-        position: absolute;
-        width: 100%;
-        text-align: center;
-    }
+.title {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
 
+.container {
     position: absolute;
     background-color: rgb(218, 218, 218);
     display: flex;
@@ -37,15 +37,15 @@
     bottom: 0;
     height: 85vh;
     width: 50vw;
-    
-    .text {
-        position: absolute;
-        text-align: center;
-        font-size: 20px;
-        top: 40%;
-        left: 2.5%;
-        width: 95%;
-    }
+}
+
+.text {
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    top: 40%;
+    left: 2.5%;
+    width: 95%;
 }
 
 .link {
@@ -62,15 +62,15 @@
     height: 15%;
     border-radius: 5px;
     border: 3px black solid;
+}
 
-    .about-text {
-        position: absolute;
-        font-size: 25px;
-        font-weight: bold;
-        left: 20%;
-        top: 5%;
-        width: auto;
-    }
+.about-text {
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    left: 20%;
+    top: 5%;
+    width: auto;
 }
 
 .blog-container {
@@ -82,13 +82,27 @@
     height: 15%;
     border-radius: 5px;
     border: 3px black solid;
-    
+}
+
+.blog-text {
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    left: 28%;
+    top: 5%;
+    width: auto;
+}
+
+@media screen and (max-width:800px) {
+    .blog-container {
+        width: 25%;
+    }
+
     .blog-text {
-        position: absolute;
-        font-size: 25px;
-        font-weight: bold;
-        left: 28%;
-        top: 5%;
-        width: auto;
+        font-size: 5%;
+    }
+
+    .text {
+        font-size: 5px;
     }
 }

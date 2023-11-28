@@ -40,8 +40,8 @@
     height: 85vh;
     width: 50vw;
 
-    /* Jag önskar att jag visste hur man kunde automatiskt ge en height värde för varje blogg,
-    men, då jag inte kan någon metod på hur man gör det i HTML / CSS, får jag sätta deras height
+    /* Jag önskar att jag visste hur man kunde automatiskt ge en top värde för varje blogg,
+    men, då jag inte kan någon metod på hur man gör det i HTML / CSS, får jag sätta deras top
     värde manuellt. */
     .list-blog {
         position: absolute;
@@ -55,6 +55,8 @@
 
         pointer-events: all;
         cursor: pointer;
+
+        
     }
 
     .list-blog-2 {
@@ -66,6 +68,9 @@
         height: 18%;
         border: 3px solid black;
         border-radius: 6px;
+
+        pointer-events: all;
+        cursor: pointer;
     }
 
     .list-blog-3 {
@@ -77,6 +82,9 @@
         height: 18%;
         border: 3px solid black;
         border-radius: 6px;
+
+        pointer-events: all;
+        cursor: pointer;
     }
 }
 
