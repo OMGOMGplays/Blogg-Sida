@@ -5,21 +5,28 @@
     height: 10vh;
     border-bottom: 2px solid black;
     background-color: rgb(74, 74, 74);
-}
 
-.header-title {
-    position: absolute;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 35px;
-    font-weight: 800;
-    text-align: center;
-    width: 100vw;
-    top: 2vh;
+    .header-title {
+        position: absolute;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 35px;
+        font-weight: 800;
+        text-align: center;
+        width: 100vw;
+        top: 2vh;
+    }
 }
 
 /* En flex kontainer som innehåller bloggarna, osv. */
 .list {
+    .list-title {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        height: 15%;
+    }
+
     position: absolute;
     background-color: rgb(218, 218, 218);
     display: flex;
@@ -32,52 +39,48 @@
     bottom: 0;
     height: 85vh;
     width: 50vw;
+
+    /* Jag önskar att jag visste hur man kunde automatiskt ge en height värde för varje blogg,
+    men, då jag inte kan någon metod på hur man gör det i HTML / CSS, får jag sätta deras height
+    värde manuellt. */
+    .list-blog {
+        position: absolute;
+        background-color: rgb(203, 203, 203);
+        top: 60%;
+        left: 2%;
+        width: 95%;
+        height: 18%;
+        border: 3px solid black;
+        border-radius: 6px;
+
+        pointer-events: all;
+        cursor: pointer;
+    }
+
+    .list-blog-2 {
+        position: absolute;
+        background-color: rgb(203, 203, 203);
+        top: 40%;
+        left: 2%;
+        width: 95%;
+        height: 18%;
+        border: 3px solid black;
+        border-radius: 6px;
+    }
+
+    .list-blog-3 {
+        position: absolute;
+        background-color: rgb(203, 203, 203);
+        top: 20%;
+        left: 2%;
+        width: 95%;
+        height: 18%;
+        border: 3px solid black;
+        border-radius: 6px;
+    }
 }
 
-.list-title {
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    height: 15%;
-}
-
-/* Jag önskar att jag visste hur man kunde automatiskt ge en height värde för varje blogg,
-men, då jag inte kan någon metod på hur man gör det i HTML / CSS, får jag sätta deras height
-värde manuellt. */
-.list-blog {
-    position: absolute;
-    background-color: rgb(203, 203, 203);
-    top: 60%;
-    left: 2%;
-    width: 95%;
-    height: 18%;
-    border: 3px solid black;
-    border-radius: 6px;
-}
-
-.list-blog-2 {
-    position: absolute;
-    background-color: rgb(203, 203, 203);
-    top: 40%;
-    left: 2%;
-    width: 95%;
-    height: 18%;
-    border: 3px solid black;
-    border-radius: 6px;
-}
-
-.list-blog-3 {
-    position: absolute;
-    background-color: rgb(203, 203, 203);
-    top: 20%;
-    left: 2%;
-    width: 95%;
-    height: 18%;
-    border: 3px solid black;
-    border-radius: 6px;
-}
-
-/* Bloggernas titel, författare information och datumet den skrevs, och undertexter */
+/* Bloggens titel, information om författaren och datumet den skrevs, och undertexter */
 .blog-title {
     position: absolute;
     margin-top: 8px;
@@ -101,6 +104,13 @@ värde manuellt. */
     width: 95%;
 }
 
+/* Alla länkar bör ha denna, den gömmer den blåa färgningen och tar bort dekorationer som
+sätts till automatiskt. */
+.link {
+    text-decoration: none;
+    color: black;
+}
+
 /* Footern är också en flex kontainer som innehåller länkarna till resten av webbsidan. */
 .footer {
     position: absolute;
@@ -111,25 +121,18 @@ värde manuellt. */
     width: 100vw;
     border-top: 2px solid black;
     bottom: 0;
-}
 
-/* Alla länkar bör ha denna, den gömmer den blåa färgningen och tar bort dekorationer som
-sätts till automatiskt. */
-.link {
-    text-decoration: none;
-    color: black;
-}
+    .about {
+        position: absolute;
+        left: 26%;
+        bottom: 7%;
+        text-align: center;
+    }
 
-.about {
-    position: absolute;
-    left: 26%;
-    bottom: 7%;
-    text-align: center;
-}
-
-.homepage {
-    position: absolute;
-    left: 64%;
-    bottom: 7%;
-    text-align: center;
+    .homepage {
+        position: absolute;
+        left: 64%;
+        bottom: 7%;
+        text-align: center;
+    }
 }
